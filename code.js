@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-    document.getElementById('add                ').onclick = addTask;
+    document.getElementById('add').onclick = addTask;
 });
 
 
