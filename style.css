@@ -1,0 +1,75 @@
+input{
+    text-align: right;
+    
+    background-color: #3C3D37;
+    border: 2px solid #3C3D37;
+    border-radius: 5px;
+    color: black;
+}
+
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #1E201E;
+    
+}
+
+.task_par{
+    display: flex;
+    margin: 8px auto;
+    border: 1px solid #3C3D37;
+    border-radius: 10px;
+
+}
+
+li{
+    padding: 5px;
+    list-style: none;
+    margin-right: auto;
+    overflow: hidden;
+    color: #ECDFCC;
+}
+
+p{
+    
+    border-radius: 2px;
+}
+
+.list{
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    
+}
+
+.input-button-border{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.input-button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-plus{
+    color: #ECDFCC;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+
+}
+.fa-close{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    color: red;
+}
+.checkbox{
+    margin-left: 1%;
+    margin-right: 0;
+    cursor: pointer;
+}

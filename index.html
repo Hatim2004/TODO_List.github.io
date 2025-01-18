@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/99a290e214.js" crossorigin="anonymous"></script>
+    <script src="code.js" ></script>
+    <script src = "Keybord_events.js" type="module"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO</title>
+</head>
+<body>
+    <div class="list">
+        <div class="input-button-border">
+            <div class="input-button">
+                <input id="task" type="text" onkeydown="enterKey(event)" placeholder="Add your task ">
+                <button  class = "fa-solid fa-plus" id="add"></button>
+            </div>
+        </div>
+        <p id="TODO"></p>
+   
+    
+    </div>
+
+
+    
+</body>
+</html>
